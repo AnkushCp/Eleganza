@@ -1,0 +1,1079 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+transition: all ease 0.2s;
+   scroll-behavior: smooth;
+
+}
+
+body{
+   
+ min-height: 100vh;
+ overflow-x: hidden;
+
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    height: 60px;
+}
+.header .leftC{
+
+    width: 50%;
+}
+.header .leftC img{
+
+    width: 75px;
+
+    border-radius: 25px;
+
+    text-align: center;
+    margin-top:10px ;
+    margin-left: 20px;
+}
+.header .rightC{
+   
+    width: 50%;
+
+    align-self: center;
+}
+.header .rightC .menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+ 
+}
+.header .rightC .menu li{
+    list-style: none;
+}
+
+.header .rightC .menu li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: DM sans;
+    color: #000000;
+    transition: ease ;
+    
+}
+.header .rightC .menu li a:hover{
+    border-bottom:3px solid #1bbcdc;
+}
+.header .rightC .menu li a img{
+    width: 20px;margin-bottom: 5px;
+}
+/* first secton of the eleganza--------------- */
+.firstSec{
+    
+    padding-top:150px ;
+width: 100%;
+height: 100%;
+}
+.firstSec .headtex{
+ 
+    text-align: -webkit-center;
+    font-family:DM sans;
+    font-size:80px ;
+    color:transparent; -webkit-text-stroke: 2px rgb(255, 255, 255);
+    animation-name: eleganza;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.25s;
+    
+
+}
+.firstSec .headtex::selection{
+    background-color:#000000;
+
+}
+@keyframes eleganza {
+    0%{ opacity: 0}
+    100%{opacity: 1;}
+    
+}
+
+.firstSec .subTex{
+    text-align: -webkit-center;
+}
+.firstSec .subTex h6{ 
+    position: relative;
+    text-align: -webkit-center;
+    margin-top: 30px;
+    width:700px;
+    font-family: Mulish;
+    font-size:18px;
+    animation-name: bathf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.10s;
+}
+
+.firstSec .but{
+    text-align: -webkit-center;
+    width: 100%;
+}
+.firstSec .but button{
+
+    font-family:DM sans;
+    margin-top: 30px;
+    padding: 20px;
+    width: 250px;
+    font-size: 15px;
+    border: none;
+    color:white;
+    border-radius: 30px;
+    background-color: #000;
+    transition: ease-in-out 1s;
+}
+.firstSec .botTex{
+margin-left: 20px;
+    position: relative;
+    
+    top:0px;
+    animation-name: bathf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.10s;
+
+}
+.firstSec .botTex h1{
+    margin-bottom: 10px;
+    font-family: Mulish;
+    color: #ffffff;
+    width: 80%;
+    font-size: 50px;
+    font-weight: bold;
+
+
+}
+.firstSec .botTex h1::selection{
+    background-color: #000;
+    color: #1bbcdc;
+}
+@keyframes bathf {
+    0%{ top:0px}
+    100%{top:50;}
+    
+}
+.firstSec .botTex h2{
+    
+    font-family: Mulish;
+    width: 200px;
+    font-size:20px;
+    color: #000;
+}
+.firstSec .botTex h2::selection{
+    background-color: #000;
+    color: #ffffff;
+}
+.firstSec button:hover{
+    color:#000;
+    background-color: #fff;
+}
+.firstSec .tc{
+    
+    position: absolute;
+    right: -175px;
+    top: 255px;
+    /* text-align: center; */
+    rotate: 270deg;
+    animation-name: bathf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.10s;
+}
+.firstSec .tc h3{
+    position: relative;
+    font-family: DM sans;
+    font-size: 15px;
+    color: #000;
+  
+}
+
+/*-------------------- video section -------------------- */
+
+.vidCon{
+    position: absolute;
+    top: 0; 
+    z-index: -1;
+width: 100%;
+height: 100vh;
+}
+.vidCon video{
+    width: 100%;
+
+    
+}
+/* .......----------.. Mid section ..........--------.....  */
+.midCon{
+    display: grid;
+    width: 100%;
+    height: 540px;
+    background: #1bbcdc;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    
+}
+.midCon .midSec{
+    text-align: -webkit-center;
+}
+.midCon .midSec h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: DM sans;
+    width: 60%px;
+    font-weight: bold;
+    color: #000;
+}
+.midCon .midSec h1::selection{
+    background-color: #000;
+    color: #1bbcdc;
+}
+.midCon .midSec h3{
+    font-family: Mulish;
+    color: white;
+    
+}
+.midCon .midSec h3::selection{
+    background-color: #000;
+    color: #1bbcdc;
+}
+.midCon .midSec .butbox{
+
+    display: grid;
+    position: absolute;
+    right: 45px;
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    border-radius: 59px;
+    align-content: center;
+    justify-content: center;
+    transition: all ease 0.3s;
+
+}
+.midCon .midSec .butbox:hover{
+    background-color: rgb(37, 130, 217);
+
+
+} 
+
+.midCon .midSec .butbox a img{
+background-size: cover;
+width:70% ;
+}
+
+/* Section 2--------------------------------------------- */
+.section_2{
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+.section_2 .box1{
+    position: relative;
+    bottom: 290px;
+    left: 25px;
+    width: 80px;
+    height: 80px;
+    border: 10px solid #1bbcdc;
+    border-radius:40px;
+}
+.section_2 .corsl{
+    display: grid;
+    position: relative;
+    width: 600px;
+    height: 589px;
+    background-color: #1bbcdc00;
+    z-index: 1;
+    align-content: center;
+    justify-content: center;
+    border-radius: 11px
+
+}
+.section_2 .corsl .img_shdow{
+    position: absolute;
+    width: 189px;
+    height: 549px;
+    border-radius: 64px;
+    background-color: #0dcaf070;
+    filter: blur(30px);
+    bottom: 69px;
+    left: 193px;
+}
+.section_2 .texCon{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.section_2 .texCon h1{
+    font-family: DM sans;
+    color: white;
+    font-size: 40px;
+}
+.section_2 .texCon h2{
+    margin-top: 10px;
+    font-family: Mulish;
+    color:#1bbcdc;
+    font-size: 20px;
+}
+/* ---------------------section three----------------------- */
+.section_3{
+    padding: 5px;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: #1bbcdc;
+    align-items: center;
+    justify-content: center;
+
+}
+.section_3 .leftTex{
+    margin-left: 340px;
+    align-self: flex-start;
+    position: absolute;
+    font-family: DM sans;
+    align-items: self-start;
+    font-size: 80px;
+    color: #fff;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+}
+.section_3 .rightTex{
+    margin-right: 190px;
+    align-self: flex-start;
+    
+    right: 0;
+    position: absolute;
+    font-family: DM sans;
+    align-items: self-start;
+    font-size: 80px;
+    color: #fff;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+.section_3 #gallery{
+    border-top:3px solid white;
+    background-color: #1bbcdc;
+    padding-top:40px ;
+    margin-top: 110px;
+    padding-bottom: 105px;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    z-index: 10;
+    animation-name: card;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    transition: all ease 1s;
+}
+.section_3 #gallery .card{
+    position: relative;
+    width: 310px;
+    height: 370px; 
+    margin: 5px;
+    box-shadow: inset 0px 0px 16px 1px #00000059;
+
+    
+}
+@keyframes cards {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.section_3 #gallery .card img{
+    position: absolute;
+    align-self: center;
+    width: 100%;
+   
+}
+.section_3 #gallery .card img:hover{
+    width: 110%;
+}
+.section_3 #gallery .card .img2{
+    margin-top: 15px;
+    width: 58%;
+}
+.section_3 #gallery .card .img2:hover{
+    width: 65%;
+}
+.section_3 #gallery .card h2{
+  
+    opacity: 1;
+    display: grid;
+    text-align: center;
+    position: absolute;
+    font-family: 'Mulish';
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    background-color: #000000b3;
+    width: 100%;
+    height: 60px;
+    bottom: -8px;
+    border-radius: 0px 0px 6px 6px;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.339));
+    align-content: center;
+    transition: all ease 0.5s;
+}
+.section_3 #gallery .card:hover h2{
+opacity: 0;
+height: 0px;
+}
+.section_3 #gallery .card:hover{
+    box-shadow: inset 0px 17px 39px -3px #00000059;
+}
+
+/* ................ Footer................... */
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 393px;
+    background-color: #161616;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.footer .drops{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+.footer .leftF{
+    margin-left: 20px;
+    border-right:2px solid rgba(39, 37, 37, 0.61);
+
+    border-end-end-radius:5px ;
+    width: 50%;
+    height:300px ;
+}
+.footer .leftF .social{
+    display: flex;
+    width: 180px;
+    margin-left: 15px;
+    height: 50px;
+  
+
+}
+.footer .leftF .social .social_card{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin-left: 14px;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer .leftF .social .social_card img{
+    width: 100%;
+    opacity: 0.25;
+    transition: all ease 0.2s;
+}
+.footer .leftF .social .social_card img:hover{
+    opacity: 1;
+}
+.footer .leftF .lis{
+    
+    margin-left: 130px;
+    margin-top: 34px;
+
+    height: 250px;
+    width: 38%;
+}
+.footer .leftF .lis li{
+    list-style: none;
+    margin-bottom:8px ;
+}
+.footer .leftF .lis li a{
+
+    font-family: Mulish;
+    color: #1bbcdc8a;
+    text-decoration: none;
+    transition: all ease 0.2s;
+}
+.footer .leftF .lis li a:hover{
+    color: #1bbcdc;
+
+}
+.footer .rightF{
+    margin-right: 20px;
+ 
+    width: 50%;
+    height:390px 
+}
+.footer .rightF img{
+    position: absolute;
+    width: 9%;
+    top: 25px;
+    right: 83px;
+    transition: all ease;
+}
+.footer .rightF h1{
+    position: absolute;
+    right: 0;
+    margin-top: 186px;
+    /* margin-left: 59px; */
+    margin-right: 33px;
+    font-family: Mulish;
+    color: #fff;
+    font-size: 40px;
+}
+.footer .rightF .treeL{
+    position: absolute;
+    top: 0;
+}
+.footer .midSec{
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+    height: 50px;
+    border-bottom:2px solid rgba(39, 37, 37, 0.61);
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.footer .midSec h4{
+    font-family: 'Mulish';
+    color: #1bbcdc57;
+    font-size: 15px;
+}
+.header #ham{
+    position: absolute;
+    right: 10px;
+    margin: 37px;
+    display: none;
+    width: 40px;
+    height: 20px;
+}
+.header #cross{
+    display: none;
+    position: absolute;
+    right: 0;
+    margin: 37px;
+    width: 20px;
+    height: 20px;
+    z-index: 74;
+}
+/* ----------------------------------media query-------------------- */
+@media only screen and (max-width: 603px) {
+    .header{
+        
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    .header #ham{
+        position: absolute;
+        right: 0px;
+        margin: 37px;
+        display: flex;
+        width: 40px;
+        height: 20px;
+    }
+    .header .leftC{
+    
+        width: 50%;
+    }
+    .header .leftC img{
+    
+        width: 75px;
+    
+        border-radius: 25px;
+    
+        text-align: center;
+        margin-top:10px ;
+        margin-left: 20px;
+    }
+    /* .header .rightC{
+        display: none;
+        border: 2px solid red;
+    width: 50%;
+    height: 520px;
+    align-self: center;
+    transition: all ease 2s;
+    } */
+
+    .header .rightD{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #000000d0;
+        width: 50%;
+        height: 0px;
+        align-self: center;
+        z-index: 10;
+        transition: all ease-in 0.5s;
+    }
+
+    .header .rightD .menu{
+        
+        margin-top:-180px;
+        display: flex;
+        width: 100%;
+  
+        flex-direction: column;
+        align-content: stretch;
+        transition: all ease-in 0.5s;
+        
+     
+    }
+    .header .rightD .menu li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    
+    .header .rightD .menu li a{
+        text-decoration: none;
+        margin-left: 50px;
+        font-family: DM sans;
+        color: #ffffff;
+        transition: ease ;
+        
+    }
+    .header .rightD .menu li a:hover{
+        border-bottom:3px solid #1bbcdc;
+    }
+    .header .rightD .menu li a img{
+        width: 20px;margin-bottom: 5px;
+    }
+
+    
+.vidCon{
+    position: absolute;
+    top: 0; 
+    z-index: -1;
+width: 100%;
+height: 100vh;
+}
+.vidCon video{
+    width: 100%;
+
+    
+}
+ /* ----------------first section ------------------- */
+ .firstSec{
+    
+    
+        padding-top:0px ;
+    
+
+width: 100%;
+height: 401px;
+}
+.firstSec .headtex{
+ margin-top: 220px;
+    text-align: -webkit-center;
+    font-family:DM sans;
+    font-size:70px ;
+    color:transparent; -webkit-text-stroke: 2px rgb(255, 255, 255);
+    animation-name: eleganza;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.25s;
+    
+
+}
+.firstSec .headtex::selection{
+    background-color:#000000;
+
+}
+@keyframes eleganza {
+    0%{ opacity: 0}
+    100%{opacity: 1;}
+    
+}
+
+/* .firstSec .subTex{
+    text-align: -webkit-center;
+}
+.firstSec .subTex h6{ 
+    position: relative;
+    text-align: -webkit-center;
+    margin-top: 30px;
+    width:700px;
+    font-family: Mulish;
+    font-size:18px;
+    animation-name: bathf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.10s;
+} */
+/* 
+.firstSec .but{
+    text-align: -webkit-center;
+    width: 100%;
+}
+.firstSec .but button{
+
+    font-family:DM sans;
+    margin-top: 30px;
+    padding: 20px;
+    width: 250px;
+    font-size: 15px;
+    border: none;
+    color:white;
+    border-radius: 30px;
+    background-color: #000;
+    transition: ease-in-out 1s;
+} */
+.firstSec .botTex{
+margin-left: 20px;
+    position: relative;
+    
+    top:130px;
+    animation-name: bathf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.10s;
+
+}
+.firstSec .botTex h1{
+    margin-bottom: 10px;
+    font-family: Mulish;
+    color: #ffffff;
+    width: 80%;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+.firstSec .botTex h1::selection{
+    background-color: #000;
+    color: #1bbcdc;
+}
+@keyframes bathf {
+    0%{ top:0px}
+    100%{top:130;}
+    
+}
+.firstSec .botTex h2{
+    
+    font-family: Mulish;
+    width: 200px;
+    font-size:15px;
+    color: #000;
+}
+
+.firstSec .tc{
+    
+    position: absolute;
+    right: -145px;
+    top: 250px;
+    /* text-align: center; */
+    rotate: 270deg;
+    animation-name: bathf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.10s;
+}
+.firstSec .tc h3{
+    position: relative;
+    font-family: DM sans;
+    font-size: 12px;
+    color: #000;
+  
+}
+
+/* -------------------Middle section------------------ */
+
+.midCon .midSec h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: DM sans;
+    width: 80%px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.midCon .midSec .butbox{
+
+    
+
+
+position: static;
+
+}
+.midCon .midSec .butbox:hover{
+    background-color: rgb(37, 130, 217);
+
+
+} 
+
+/* --------------------------section three --------------- */
+.section_2{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.section_2 .box1{
+    position: relative;
+    bottom: 290px;
+    
+    width: 80px;
+    height: 80px;
+    border: 10px solid #1bbcdc;
+    border-radius:40px;
+}
+.section_2 .corsl{
+    display: grid;
+    position: relative;
+    width: 400px;
+    height: 589px;
+    background-color: #1bbcdc00;
+    z-index: 1;
+    align-content: center;
+    justify-content: center;
+    border-radius: 11px
+
+}
+.section_2 .corsl .img_shdow{
+    position: absolute;
+    width: 179px;
+    height: 470px;
+    border-radius: 64px;
+    background-color: #0dcaf070;
+    filter: blur(30px);
+    bottom: 69px;
+    left: 123px;
+}
+.section_2 .texCon{
+   
+    width: 100%;
+    height:425px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 0px;
+ margin-bottom: 80px;
+    
+}
+.section_2 .texCon h1{
+    font-family: DM sans;
+    color: white;
+    font-size: 40px;margin-left: 15px;
+    
+}
+.section_2 .texCon h2{
+   
+    margin-top: 10px;
+    font-family: Mulish;
+    color:#1bbcdc;
+    font-size: 18px;
+    margin-left: 15px;
+   
+    
+
+}
+
+
+/* _________________third section _______________ */
+
+.section_3{
+    padding: 5px;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: #1bbcdc;
+    align-items: center;
+    justify-content: center;
+
+}
+.section_3 .leftTex{
+    
+    margin-left: 15px;
+    position: absolute;
+    font-family: DM sans;
+  
+    font-size: 60px;
+    color: #fff;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+}
+.section_3 .rightTex{
+    margin-right: 15px;
+    align-self: flex-start;
+    
+    right: 0;
+    position: absolute;
+    font-family: DM sans;
+    align-items: self-start;
+    font-size: 60px;
+    color: #fff;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+.section_3 #gallery{
+    border-top:3px solid white;
+    background-color: #1bbcdc;
+    padding-top:40px ;
+    margin-top: 110px;
+    padding-bottom: 105px;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    z-index: 10;
+    animation-name: card;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    transition: all ease 1s;
+}
+.section_3 #gallery .card{
+    width: 170px;
+    height: 225px;
+}
+
+.section_3 #gallery .card img{
+    position: absolute;
+    align-self: center;
+    width: 100%;
+   
+}
+.section_3 #gallery .card img:hover{
+    
+    width:120%;
+}
+
+/* -----------------footer section -------------------- */
+.footer{
+    position: relative;
+    width: 100%;
+    height: 393px;
+    background-color: #161616;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.footer .drops{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+.footer .leftF{
+    margin-left: 20px;
+    border-right:2px solid rgba(39, 37, 37, 0.61);
+
+    border-end-end-radius:5px ;
+    width: 50%;
+    height:260px ;
+}
+.footer .leftF .social{
+    display: flex;
+    width: 180px;
+    margin-left: 0px;
+    height: 50px;
+  
+
+}
+.footer .leftF .social .social_card{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin-left: 14px;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer .leftF .social .social_card img{
+    width: 100%;
+    opacity: 0.25;
+    transition: all ease 0.2s;
+}
+.footer .leftF .social .social_card img:hover{
+    opacity: 1;
+}
+.footer .leftF .lis{
+    margin-left: 50px;
+    margin-top: 19px;
+    height: 250px;
+    width: 74%;
+}
+.footer .leftF .lis li{
+    list-style: none;
+    margin-bottom:8px ;
+}
+.footer .leftF .lis li a{
+
+    font-family: Mulish;
+    color: #1bbcdc8a;
+    text-decoration: none;
+    transition: all ease 0.2s;
+}
+.footer .leftF .lis li a:hover{
+    color: #1bbcdc;
+
+}
+.footer .rightF{
+    margin-right: 20px;
+ 
+    width: 50%;
+    height:390px 
+}
+.footer .rightF img{
+    position: absolute;
+    width: 15%;
+    top: 35px;
+    right: 20px;
+    transition: all ease;
+}
+.footer .rightF h1{
+    position: absolute;
+    right: 0;
+    margin-top: 250px;
+    /* margin-left: 59px; */
+    margin-right: 20px;
+    font-family: Mulish;
+    color: #fff;
+    font-size: 20px;
+}
+.footer .rightF .treeL{
+    position: absolute;
+    top: 0;
+}
+.footer .midSec{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    border-bottom:2px solid rgba(39, 37, 37, 0.61);
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.footer .midSec h4{
+    font-family: 'Mulish';
+    color: #1bbcdc57;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+  }
